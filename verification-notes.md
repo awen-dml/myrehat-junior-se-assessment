@@ -1,3 +1,5 @@
-1. **Frontend:** Search, filter kategori, harga Daily/Monthly, validasi form, konfirmasi booking, footer, dan tampilan mobile 390 px — isi status berdasarkan hasil pengujian aktual.
-2. **PHP:** B1 text-domain, B2 nonce/sanitasi input, dan B3 hook counter dua argumen — syntax check berhasil; pengujian end-to-end masih perlu dikonfirmasi.
-3. **Elementor:** Hero diperbarui dan template JSON berhasil diekspor; repo GitHub dan video demo — isi tautan setelah publikasi.
+# Verification Notes
+
+1. **PHP syntax:** `functions.php` and `page-trails.php` passed local PHP syntax checks using `php -l`.
+2. **File transfer:** Retrieved `functions.php`, `page-trails.php`, `trails.js`, and `style.css` from the assessment server; all four files are non-empty locally.
+3. **Functional verification:** Search/filter behavior, booking validation and pricing, mobile responsiveness, and server-side booking handling must be reported according to actual end-to-end test results. Client-side booking confirmation alone does not confirm that a booking was saved.
