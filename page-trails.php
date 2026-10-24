@@ -67,11 +67,11 @@ get_header();
       <input type="hidden" name="trails_booking" value="1">
       <?php wp_nonce_field( 'myrehat_booking_action', 'trails_booking_nonce' ); ?>
   <label>Name
-    <input type="text" name="name" autocomplete="name" required>
+    <input type="text" name="trails_name" autocomplete="name" required>
   </label>
 
   <label>Date
-    <input type="date" name="date" required>
+    <input type="date" name="trails_date" required>
   </label>
 
   <fieldset>

@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (!bookingForm.reportValidity()) return;
 
       var formData = new FormData(bookingForm);
-      var name = String(formData.get('name') || '').trim();
+      var name = String(formData.get('trails_name') || '').trim();
       var bookingType = formData.get('booking_type');
       var amount = bookingType === 'monthly' ? 8400 : 350;
 
